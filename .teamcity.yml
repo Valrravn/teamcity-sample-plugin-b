@@ -1,13 +1,14 @@
 jobs:
   Job1:
-    name: Android tests
+    name: Job 1
     steps:
       - type: script
         script-content: echo "Hello"
-  Job1_2:
-    name: iOS tests
-  Job1_3:
-    name: Build main
-    dependencies:
-      - Job1_2
-      - Job1
+  Job2:
+    name: Job 2
+  Job3:
+    name: Job 3
+  Job4:
+    name: Job 4
+  Job5:
+    name: Job 5
